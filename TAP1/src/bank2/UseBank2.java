@@ -9,6 +9,7 @@ public class UseBank2 {
         Account ac1=new CheckingAccount(cust1, 200);
         Account ac2=new BonusAccount(cust2, 0);
         Account ac3=new InvestFund(cust3, 1000);
+        //Account ac4=new Account(cust3, 1000);
 
         Bank2 bank2=new Bank2("Bank");
 

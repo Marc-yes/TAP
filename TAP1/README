@@ -51,4 +51,7 @@ No creation of graphical or textual interface is required.
 
 2. Modify the "Client" class in the structures package to make it implement Comparable. Modify Test3 to check than sort no longer need a Comparator as second parameter.
 
-
+Comandes GIT:
+git add .
+git commit -m "descripcio"
+git push
