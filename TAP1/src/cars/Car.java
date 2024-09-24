@@ -18,9 +18,9 @@ public class Car {
 
 	// Method to determine if two cars are equals
 	public boolean equals(Car car) {
-		Car other = car;
-		return (other.getPrice() == this.price)
-				&& (other.getBrand().equals(this.brand));
+		//Car other = car;
+		return (car.getPrice() == this.price)
+				&& (car.getBrand().equals(this.brand));
 	}
 
 	// Method to create another car with the same characteristics
