@@ -11,6 +11,11 @@ public abstract class Account {
         balance=b;
     }
 
+    public String toString(){
+        String text="---------Info Account---------:\nuser: "+user.getName()+"\nbalance: "+balance;
+        return text;
+    }
+
     public double getbalance(){
         return balance;
     }

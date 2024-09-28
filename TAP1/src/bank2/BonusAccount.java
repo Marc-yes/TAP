@@ -5,4 +5,11 @@ public class BonusAccount extends Account {
         super(c,b);
         interest = 0.6;
     }
+
+    /*
+    public String toString(){
+        String text=super.toString()+"\nTipo: BA\n\n";
+        return text;
+    }
+    */
 }

@@ -38,5 +38,9 @@ public class UseBank2 {
         ac1.monthRevision();
         System.out.println("Balanç ac1 despres de revisió mensual: "+ ac1.getbalance());
 
+        System.out.println(bank2.showAccounts());
+        bank2.lotery();
+        System.out.println(bank2.showAccounts());
+
     }
 }
